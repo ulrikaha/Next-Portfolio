@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ulrika | Portfolio",
-  description: "Ulrika's portfolio",
+  description: "Ulrika Frontend Developer Portfolio",
 };
 
 export default function RootLayout({
@@ -16,7 +16,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className}
+      bg-gray-50 text-gray-950 relative`}>
+        <div className="bg-[#fecdd3] absolut top-[-6rem] -z-10 right-[11rem] 
+        h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem]
+        sm:w-[68.75rem]"></div>
+        <div className="bg-[#e9d5ff] absolut top-[-1rem] -z-10 left-[-35rem] 
+        h-[31.25rem] w-[50rem] rounded-full blur-[10rem]
+        sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem]
+        2x1:left-[-5rem]"></div>
+
+
+        {children}
+        </body>
     </html>
   );
 }
