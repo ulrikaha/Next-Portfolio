@@ -2,11 +2,10 @@
 
 import React from 'react'
 import Image from 'next/image'
-import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { BsArrowRight } from 'react-icons/bs'
+import { motion } from 'framer-motion'
+import { BsArrowRight,  BsLinkedin  } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
-import { BsLinkedin } from 'react-icons/bs'
 import { FaGithubSquare } from 'react-icons/fa'
 
 export default function Intro() {
@@ -42,8 +41,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Ulrika.</span> I'm a{" "}
-        <span className="font-bold">front end developer</span> looking{" "}
-        <span className="font-bold"> For my first job!</span>
+        <span className="font-bold">front end developer</span> {" "}
+        <span className="font-bold"></span>
       </motion.h1>
 
       <motion.div
