@@ -1,6 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+import uxdesign from "@/public/uxdesign.png";
+import dreamestate from "@/public/dreamestate.png"
+import todolist from "@/public/todolist.png";
 
 
 export const links = [
@@ -40,19 +43,6 @@ export const educationData = [
         date: "2023-2024, 5 months",
     },
     {
-        title: "Frontend Engineer Career Path Certificate",
-        subtitle: "Codecademy",
-        icon: React.createElement(LuGraduationCap),
-        date: "2021-2022",
-    },
-    {
-        title: "Programmering 1 Java", "Sociologi": "Personaladministration",
-        subtitle: "Komvux",
-        icon: React.createElement(LuGraduationCap),
-        date: "2021",
-    },
-    
-    {
         title: "Frontend Developer",
         subtitle: "KYH Stockholm",
         icon: React.createElement(LuGraduationCap),
@@ -78,19 +68,19 @@ export const projectsData = [
         subtitle: "School Project, UX-design course",
         description: "The task was to make the ux-design to a food app for ordering food. The app should be responsive and have a good user experience. I used Figma to make the design and prototyping.",
         tags: ["Figma", "UX/UI Design"],
-        imageUrl: 
+        imageUrl: uxdesign,
     },
     {
         title: "Real Estate Website",
         description: "A school projekt in html and css course. The task was to come up with a pretend company that needed a corporate website. The website should be responsive. This was my first time making a website with multiple subpages and my first time using Sass.",
         tags: ["HTML", "CSS", "Sass"],
-        imageUrl:
+        imageUrl: dreamestate,
     },
     {
         title: "Todo List",
         description: "The task was to make a todo list with JavaScript. The todo list should be responsive and have a good user experience. I used JavaScript to make the functionality and CSS to style the todo list.",
         tags: ["HTML", "CSS", "JavaScript"],
-        imageUrl: 
+        imageUrl: todolist,
     },
   
    
