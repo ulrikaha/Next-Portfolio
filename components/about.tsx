@@ -31,8 +31,8 @@ export default function About() {
       <span className="font-medium">
         React, Next.js, Node.js, and MongoDB
       </span>
-      . I am also familiar with TypeScript, Tailwind css and the process of UX/UI design. I am always looking to
-      learn new technologies. 
+      . I am also familiar with TypeScript, Tailwind css and the process of UX/UI design. I like both front end and code in backend. I am always looking to
+      learn new technologies and I am currently learning C# and Litium.
       <br></br>
       <br></br>
      
@@ -41,13 +41,9 @@ export default function About() {
     </p>
 <br></br>
     <p>
-      <span className="italic">When I'm not coding</span>, I enjoy gooing to the gym, travel playing
-      Mario Kart, watching movies, and beeing with my family. I also like{" "}
-      <span className="font-medium">learning new things</span>. I am currently
-      learning about{" "}
-      <span className="font-medium">E-commers platform Litium and getting my a certificate in learning how to code with C#</span>.
-      
-    </p>
+      <span className="italic">When I'm not coding</span>, I enjoy going to the gym, travel to new countries, or just chill and play
+      Mario Kart, watching movies, and ofcourse spending quality time with my family.{" "}
+     </p>
   </motion.section>
 );
 }

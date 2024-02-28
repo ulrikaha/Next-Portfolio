@@ -64,41 +64,37 @@ export const educationData = [
 
 export const projectsData = [
     {
-        title: "UX-design for a food app",
-        subtitle: "School Project, UX-design course",
-        description: "The task was to make the ux-design to a food app for ordering food. The app should be responsive and have a good user experience. I used Figma to make the design and prototyping.",
+        title: "Ux-Design & research for Food App",
+        description: 
+        "In this project, I did UX research and designed a food ordering app. The objective was to create a responsive application with a seamless user experience. I used Figma for this.",
         tags: ["Figma", "UX/UI Design"],
         imageUrl: uxdesign,
     },
     {
         title: "Real Estate Website",
-        description: "A school projekt in html and css course. The task was to come up with a pretend company that needed a corporate website. The website should be responsive. This was my first time making a website with multiple subpages and my first time using Sass.",
+        description: 
+        "For a school HTML/CSS project, I created a responsive corporate website for a fictional real estate company. It was my first time building a multi-page site and using Sass.",
         tags: ["HTML", "CSS", "Sass"],
         imageUrl: dreamestate,
     },
     {
         title: "Todo List",
-        description: "The task was to make a todo list with JavaScript. The todo list should be responsive and have a good user experience. I used JavaScript to make the functionality and CSS to style the todo list.",
+        description: "A responsive todo list application using JavaScript. This involved implementing functionalities such as adding, deleting, and marking items as done. CSS was applied for styling to enhance the user interface.",
         tags: ["HTML", "CSS", "JavaScript"],
         imageUrl: todolist,
     },
-  
-   
-
-
-] as const;
+  ] as const;
 
 export const skillsData = [
-
     "HTML",
     "CSS",
     "JavaScript",
     "TypeScript",
-    "UX/UI Design",
+    "UX/UI - Design",
     "Responsive Design",
     "React",
     "Next.js",
-    "Tailwind CSS",
+    "TailwindCSS",
     "Bootstrap",
     "SaSS",
     "Rest API",
