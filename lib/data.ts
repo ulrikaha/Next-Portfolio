@@ -39,24 +39,28 @@ export const educationData = [
     {
         title: "Frontend Developer Intern",
         subtitle: "Seemli Sweden AB",
+        description: "I did my LIA (Lärande i arbete) at Seemli, where I worked as a frontend developer. I worked with React, Next.js, and TailwindCSS. I also worked with Figma for UI/UX design.",
         icon: React.createElement(CgWorkAlt),
         date: "2023-2024, 5 months",
     },
     {
         title: "Frontend Developer",
         subtitle: "KYH Stockholm",
+        description: "I am currently studying to become a frontend developer at KYH Stockholm. I am learning about web development, UX/UI design, and programming. I am also learning about project management and agile methodologies.",
         icon: React.createElement(LuGraduationCap),
         date: "2022-2024",
     },
     {
         title: "Frontend Engineer Career Path Certificate",
         subtitle: "Codecademy",
+        description: "I completed the Frontend Engineer Career Path Certificate at Codecademy. I learned about HTML, CSS, JavaScript",
         icon: React.createElement(LuGraduationCap),
         date: "2021-2022",
     },
     {
         title: "Programmering 1 Java", "Sociologi": "Personaladministration",
         subtitle: "Komvux",
+        description: "I studied Java programming and sociology at Komvux. I also studied personal administration.",
         icon: React.createElement(LuGraduationCap),
         date: "2021",
     },
