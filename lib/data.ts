@@ -4,13 +4,9 @@ import { LuGraduationCap } from "react-icons/lu";
 import uxdesign from "@/public/uxdesign.png";
 import dreamestate from "@/public/dreamestate.png"
 import todolist from "@/public/todolist.png";
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiBootstrap, SiSass, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiNextdotjs, SiTrello, SiDiscord, SiCsharp,  } from "react-icons/si";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiBootstrap, SiSass, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiNextdotjs, SiTrello, SiDiscord, SiCsharp, } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { TbUxCircle } from "react-icons/tb";
-
-
-
-
 
 export const links = [
     {
@@ -75,15 +71,15 @@ export const educationData = [
 export const projectsData = [
     {
         title: "Ux-Design & research for Food App",
-        description: 
-        "In this project, I did UX research and designed a food ordering app. The objective was to create a responsive application with a seamless user experience. I used Figma for this.",
+        description:
+            "In this project, I did UX research and designed a food ordering app. The objective was to create a responsive application with a seamless user experience. I used Figma for this.",
         tags: ["Figma", "UX/UI Design"],
         imageUrl: uxdesign,
     },
     {
         title: "Real Estate Website",
-        description: 
-        "For a school HTML/CSS project, I created a responsive corporate website for a fictional real estate company. It was my first time building a multi-page site and using Sass.",
+        description:
+            "For a school HTML/CSS project, I created a responsive corporate website for a fictional real estate company. It was my first time building a multi-page site and using Sass.",
         tags: ["HTML", "CSS", "Sass"],
         imageUrl: dreamestate,
     },
@@ -93,55 +89,30 @@ export const projectsData = [
         tags: ["HTML", "CSS", "JavaScript"],
         imageUrl: todolist,
     },
-  ] as const;
-
-// export const skillsData = [
-//     "HTML",
-//     "CSS",
-//     "JavaScript",
-//     "TypeScript",
-//     "UX/UI - Design",
-//     "Responsive Design",
-//     "React",
-//     "Next.js",
-//     "TailwindCSS",
-//     "Bootstrap",
-//     "SaSS",
-//     "Rest API",
-//     "Node.js",
-//     "Express",
-//     "MongoDB",
-//     "Postman",
-//     "Git",
-//     "GitHub",
-//     "VS Code",
-//     "Trello",
-//     "Figma",
-//     "Discord",
-//     ] as const;
+] as const;
 
 export const skillsData = [
     { name: "HTML", icon: SiHtml5 },
     { name: "CSS", icon: SiCss3 },
     { name: "JavaScript", icon: SiJavascript },
     { name: "TypeScript", icon: SiTypescript },
-    {name: "UX/UI - Design", icon: TbUxCircle},
+    { name: "UX/UI - Design", icon: TbUxCircle },
     { name: "React", icon: SiReact },
     { name: "Next.js", icon: SiNextdotjs },
     { name: "TailwindCSS", icon: SiTailwindcss },
     { name: "Bootstrap", icon: SiBootstrap },
     { name: "SaSS", icon: SiSass },
     { name: "Node.js", icon: FaNode },
-    {name: "Express", icon: SiJavascript},
+    { name: "Express", icon: SiJavascript },
     { name: "MongoDB", icon: SiMongodb },
-    {name: "C#", icon: SiCsharp},
+    { name: "C#", icon: SiCsharp },
     { name: "Git", icon: SiGit },
     { name: "GitHub", icon: SiGithub },
     { name: "VS Code", icon: SiVisualstudiocode },
     { name: "Figma", icon: SiFigma },
     { name: "Trello", icon: SiTrello },
     { name: "Discord", icon: SiDiscord },
-   
+
 ] as const;
 
 
