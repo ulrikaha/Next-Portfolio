@@ -1,16 +1,9 @@
 "use server";
 
 import { Resend } from "resend"
+import { validateString } from "@/lib/utils"
 
 const resend = new Resend(process.env.RESEND_API_KEY)
-
-// check if the string is valid and not too long
-const validateString = (value: unknown, maxLength: number) => {
-    if (!value || typeof value !== 'string' || value.length > maxLength) {
-        return false;
-    }
-    return true;
-}
 
 export const sendEmail = async (formData: FormData) => {
     const senderEmail = formData.get('senderEmail');
@@ -29,18 +22,23 @@ export const sendEmail = async (formData: FormData) => {
         };
     }
 
-
     try {
-
         await resend.sendEmail({
-            from: 'onboarding@resend.dev',
+            from: 'Ulrikas portfolio website <onboarding@resend.dev>',
             to: 'ulrikahahn83@gmail.com',
-            subject: 'New message from Ulrikas portfolio web',
+            subject: 'New message from Ulrikas contact form',
             reply_to: senderEmail as string,
             text: message as string
-        })
+        });
+
+        return {
+            success: true,
+        };
 
     } catch (error) {
-        console.log(error)
+        console.error("Error sending email:", error);
+        return {
+            error: "An error occurred while sending the email",
+        };
     }
 }

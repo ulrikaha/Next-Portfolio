@@ -3,47 +3,52 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
-//import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   return (
-
     <motion.section
-    //ref={ref}
-    className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
-    initial={{ opacity: 0, y: 100 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ delay: 0.175 }}
-    id="about"
-  >
-     <SectionHeading>About me</SectionHeading> 
-    <p className="mb-3">
-      In May of 2024 Im graduatiing from KYH, where I studied for 2 years to become a {" "}
-      <span className="font-medium">Front End Developer</span>, I worked many years with people as  but I always had an itrest in computers. decided to pursue my
-      passion for programming. I enrolled in a coding programming 1 java at komvux and took codecademy course.{" "}
-      <span className="font-medium">front end development</span>.{" "}
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+      id="about"
+    >
+      <SectionHeading>About me</SectionHeading>
+      <p className="mb-3">
+        In May of 2024, Im graduating from KYH (Higher Vocational Education) where I've spent two years studying to become a {" "}
+        <span className="font-medium">Front End Developer</span>. Before starting my education, I had a long career in healthcare as a personal assistant and nursing assistant.
+        I also ran my own business, operating an e-commerce store specializing in clothing and shoes for women.{" "}
+        <br></br>
+        <br></br>
+        <span>One of the things I</span>{" "}
+        <span className="font-medium">love</span>{" "}
+        <span>most about programming is the ability to bring various projects to life and witness them in action on the screen.</span> {" "}
+        I have experience with{" "}
+        <span className="font-medium">
+          Html, Css, Javascript, Typescript, React, Next.js, TailwindCss, Node.js and MongoDB</span> for mentioned a few.
+        {" "}
+        I've explored UX/UI design using Figma.
+        {" "}
+        I enjoy the diversity of the work and the fact that I am always learning something new. My goal is to become a full-stack developer in the future.
+        <br></br>
+        <br></br>
+        <span> As a person, I'm known for my social personality, dedication, empathy, and collaborative spirit. I thrive in team environments and always strive to create a positive atmosphere while delivering exceptional results to my clients.{" "}</span>
+        <span className="font-medium"> I am currently looking for a{" "}full-time position</span> as a Front-end
+        developer in Stockholm.{" "}(or hybrid/remote work) I would love to work in a company where I can grow and learn from other developers, and contribute to the success of a diverse team.{" "}
+      </p>
       <br></br>
+      <p>
+        <span className="italic">When I'm not coding</span>, you'll find me either hitting the gym, or unwinding with a game of Mario Kart.
+        And ofcourse spending quality time with my family.{" "}
+      </p>
       <br></br>
-      <span className="italic">My favorite part of programming</span> is to create and see how the code make things come alive on the screen.
-      I <span className="underline">love</span> the
-      feeling of finally figuring out a solution to a problem and see the result. My core stack
-      is{" "}
-      <span className="font-medium">
-        React, Next.js, Node.js, and MongoDB
-      </span>
-      . I am also familiar with TypeScript, Tailwind css and the process of UX/UI design. I like both front end and code in backend. I am always looking to
-      learn new technologies and I am currently learning C# and Litium.
-      <br></br>
-      <br></br>
-     
-      <span className="font-medium"> I am currently looking for a{" "}full-time position</span> as a software
-      developer in Stockholm. I would love to work in a company where I can grow and learn from other developers and contribute to a great diverse team.    {" "}
-    </p>
-<br></br>
-    <p>
-      <span className="italic">When I'm not coding</span>, I enjoy going to the gym, travel to new countries, or just chill and play
-      Mario Kart, watching movies, and ofcourse spending quality time with my family.{" "}
-     </p>
-  </motion.section>
-);
+      <hr className="border-gray-300 my-8" />
+      <SectionHeading>Current Learning</SectionHeading>
+      <p className="mb-3">
+        I'm currently expanding my skills by learning C#. {" "}
+        I'm excited to delve deeper into this technology and further enhance my capabilities as a developer.
+      </p>
+      <hr className="border-gray-300 my-8" />
+    </motion.section>
+  );
 }
