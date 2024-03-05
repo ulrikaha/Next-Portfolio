@@ -111,6 +111,7 @@ export const projectsData = [
             "In this project, I did UX research and designed a food ordering app. The objective was to create a responsive application with a seamless user experience. I used Figma for this.",
         tags: ["Figma", "UX/UI Design"],
         imageUrl: uxdesign,
+        projectUrl: "https://www.figma.com/file/CzWRa9pCaRfpFPgJmX8RP9/UX-uppgift-ulrika-hahn?type=design&mode=design&t=I31yz1GLX2JtlbxG-1",
     },
     {
         title: "Real Estate Website",
@@ -118,12 +119,14 @@ export const projectsData = [
             "For a school HTML/CSS project, I created a responsive corporate website for a fictional real estate company. It was my first time building a multi-page site and using Sass.",
         tags: ["HTML", "CSS", "Sass"],
         imageUrl: dreamestate,
+        projectUrl: "https://dream-estate-website.netlify.app/",
     },
     {
         title: "Todo List",
         description: "A responsive todo list application using JavaScript. This involved implementing functionalities such as adding, deleting, and marking items as done. CSS was applied for styling to enhance the user interface.",
         tags: ["HTML", "CSS", "JavaScript"],
         imageUrl: todolist,
+        projectUrl: "https://todoli00.netlify.app/",
     },
 ] as const;
 
