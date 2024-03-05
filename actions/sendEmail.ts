@@ -22,8 +22,9 @@ export const sendEmail = async (formData: FormData) => {
         };
     }
 
+    let data;
     try {
-        await resend.sendEmail({
+        data = await resend.sendEmail({
             from: 'Ulrikas portfolio website <onboarding@resend.dev>',
             to: 'ulrikahahn83@gmail.com',
             subject: 'New message from Ulrikas contact form',
@@ -32,13 +33,14 @@ export const sendEmail = async (formData: FormData) => {
         });
 
         return {
+           data,
             success: true,
         };
 
     } catch (error) {
         console.error("Error sending email:", error);
         return {
-            error: "An error occurred while sending the email",
+            error: "An error occurred while sending the email, Please use the email address provided.",
         };
     }
 }

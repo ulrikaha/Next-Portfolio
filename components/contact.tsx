@@ -5,6 +5,7 @@ import SectionHeading from './section-heading'
 import { motion } from 'framer-motion';
 import { sendEmail } from '@/actions/sendEmail';
 import SubmitBtn from './submit-btn';
+import toast from 'react-hot-toast';
 
 export default function Contact() {
    
@@ -35,8 +36,16 @@ export default function Contact() {
             <form
                 className="mt-10 flex flex-col"
                 action={async (formData) => {
-                    await sendEmail(formData)
+                  const {data, error} = await sendEmail(formData)
+
+                  if (error) {
+                    toast.error(error);
+                    return;
+                  }
+                  
+                    toast.success("Your message has been sent! I'll get back to you as soon as possible.")
                 }}
+                
             >
                 <input className="h-14 px-4 rounded-lg border border-black/10 "
                     type="email"
