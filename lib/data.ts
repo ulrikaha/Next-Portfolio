@@ -39,33 +39,69 @@ export const links = [
 
 export const educationData = [
     {
-        title: "Frontend Developer Intern",
+        title: "Frontend Developer | Internship",
         subtitle: "Seemli Sweden AB",
-        description: "I did my LIA (Lärande i arbete) at Seemli, where I worked as a frontend developer. I worked with React, Next.js, and TailwindCSS. I also worked with Figma for UI/UX design.",
+        description: "During my internship at Seemli, I worked on both frontend and backend development as well as UX/UI design. I took on a lot of responsibility, especially in developing a CMS for handling job ads and applications, and a connected career website. I primarily used technologies like React, Next.js, Typescript, and TailwindCSS, along with Figma for design work. I also worked with Node.js, MongoDB, and Trello. I also had the opportunity to familiarize myself with some basic C# programming and explore the Litium e-commerce platform. In this role, my team and I were responsible for addressing error reports and implementing requested functionalities from customers for their websites. We effectively broke down these tasks into manageable components and estimated the time required for their completion. I also worked with the agile methodology Scrum.",
         icon: React.createElement(CgWorkAlt),
-        date: "2023-2024, 5 months",
+        date: "2023-2024 (5 months)",
     },
     {
         title: "Frontend Developer",
-        subtitle: "KYH Stockholm",
-        description: "I am currently studying to become a frontend developer at KYH Stockholm. I am learning about web development, UX/UI design, and programming. I am also learning about project management and agile methodologies.",
+        subtitle: "KYH Stockholm | Higher Vocational Education",
+        description: "Graduating in May 2024, I've spent two years learning Front End Development. Alongside frontend and backend development, I've delved into UX/UI design and collaborated on diverse projects, refining my adaptability and teamwork skills.Throughout my studies, I've gained proficiency in HTML, CSS, JavaScript, React, Next.js, Typescript, TailwindCSS, Sass, Bootstrap, Express, Node.js, and MongoDB. I've also utilized Figma, Trello, and Discord for project management, testing, debugging and learning Git/Github.Furthermore, I've embraced principles of responsive design, accessibility, and agile methodologies like Scrum, enriching my approach to software development.",
         icon: React.createElement(LuGraduationCap),
         date: "2022-2024",
     },
     {
         title: "Frontend Engineer Career Path Certificate",
         subtitle: "Codecademy",
-        description: "I completed the Frontend Engineer Career Path Certificate at Codecademy. I learned about HTML, CSS, JavaScript",
+        description: "I completed the Frontend Engineer Career Path with a certificate from Codecademy. I learned about the fundamentals of HTML, CSS and JavaScript. ",
         icon: React.createElement(LuGraduationCap),
         date: "2021-2022",
     },
     {
         title: "Programmering 1 Java", "Sociologi": "Personaladministration",
-        subtitle: "Komvux",
-        description: "I studied Java programming and sociology at Komvux. I also studied personal administration.",
+        subtitle: "Komvux | Adult Education",
+        description: "I studied Java programming 1 to prepare myself for further studies in technology. Additionally, I took courses in sociology and personal administration at Komvux (Adult Education).",
         icon: React.createElement(LuGraduationCap),
         date: "2021",
     },
+    {
+        title: "Healthcare Assistant | Undersköterska",
+        subtitle: "Salems Kommun",
+        description: "I worked as a healthcare assistant in a nursing home, specifically in the dementia ward with 10 residents. My responsibilities included providing care for the elderly, such as personal care, medication administration, activities, and household chores. The focus of our work was to ensure the best possible care for each individual, with an emphasis on their well-being and comfort. Despite the high workload, I collaborated closely with my team to meet the needs of the residents and maintain a supportive environment.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2020-2022",
+
+    },
+    {
+        title: "E-commerce manager | Co-owner",
+        subtitle: "Affingos | E-commerce Business",
+        description: "Co-owner of an e-commerce business specializing in clothing and shoes for women. I worked with marketing, SEO/SEM, was responsible for partnerships and graphic content. Worked in Klarna Merchant.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2018-2020",
+    },
+    {
+        title: "Healthcare Assistant",
+        subtitle: "Moa Lärcentrum | Adult Education",
+        description: "1.5 years studies to graduate as Healtcare Assistant (Undersköterska) I learned about healthcare, patient care, and nursing.",
+        icon: React.createElement(LuGraduationCap),
+        date: "2015-2017",
+    },
+    {
+        title: "Personal Assistant",
+        subtitle: "Särnmark Assistans",
+        description: "I assisted a person with spinal cord injurie. Such as personal care, rehab training, and household chores. I also worked extra while I was studying.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2013-2023",
+    },
+    {
+        title: "Personal Assistant",
+        subtitle: "Rehab Station Stockholm",
+        description: "I assisted people with spinal cord injuriesin, MS and Parkinson's disease with diffrent chores in their daily lives. Such as personal care, rehab training, and household chores.For the most part of these years I worked full-time with a person that had a spinal cord injury and needed 24/7 care.I worked both alone and with a team.",
+        icon: React.createElement(CgWorkAlt),
+        date: "2013-2017",
+    }
 ] as const;
 
 export const projectsData = [
