@@ -4,9 +4,10 @@ import { LuGraduationCap } from "react-icons/lu";
 import uxdesign from "@/public/uxdesign.png";
 import dreamestate from "@/public/dreamestate.png"
 import todolist from "@/public/todolist.png";
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiBootstrap, SiSass, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiNextdotjs, SiTrello, SiDiscord, SiCsharp, } from "react-icons/si";
-import { FaNode } from "react-icons/fa";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiBootstrap, SiSass, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiNextdotjs, SiTrello, SiDiscord, SiCsharp, SiPostman, SiNpm, } from "react-icons/si";
+import { FaMobile, FaNode, FaUsers } from "react-icons/fa";
 import { TbUxCircle } from "react-icons/tb";
+import { RiUserFill } from 'react-icons/ri';
 
 export const links = [
     {
@@ -151,6 +152,11 @@ export const skillsData = [
     { name: "Figma", icon: SiFigma },
     { name: "Trello", icon: SiTrello },
     { name: "Discord", icon: SiDiscord },
+    {name: "Postman", icon: SiPostman},
+    {name: "NPM", icon: SiNpm},
+    {name: "Responsive Design", icon: FaMobile},
+    {name:"Agile Methodologies", icon:FaUsers}, 
+    {name:"Accessibility", icon: RiUserFill},
 
 ] as const;
 
