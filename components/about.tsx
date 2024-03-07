@@ -26,8 +26,9 @@ export default function About() {
         I have experience with{" "}
         <span className="font-medium">
           Html, Css, Javascript, Typescript, React, Next.js, TailwindCss, Node.js and MongoDB</span> for mentioned a few.
+        {" "}I've explored UX/UI design using Figma.
         {" "}
-        I've explored UX/UI design using Figma.
+        <span>I have gained practical experience through a recent internship. In this role, I worked on UX design, front-end and back-end development for a CMS handling job advertisements and applications, as well as a career page. </span>
         {" "}
         I enjoy the diversity of the work and the fact that I am always learning something new. My goal is to become a full-stack developer in the future.
         <br></br>
