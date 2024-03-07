@@ -64,7 +64,7 @@ export default function Intro() {
  
         <a
           className="group bg-[#DB2777] bg-opacity-50 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/ulrika-hahn-CV.pdf"
           download
         >
           Download CV{" "}
