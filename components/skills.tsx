@@ -5,8 +5,6 @@ import SectionHeading from './section-heading'
 import { skillsData } from '@/lib/data'
 import { motion } from 'framer-motion'
 
-
-
 export default function Skills() {
   return (
     <section
@@ -20,7 +18,6 @@ export default function Skills() {
             className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80 flex flex-col items-center"
             key={index}
             whileHover={{ scale: 1.1, originX: 0, color: '#f9a8d4' }}
-
           >
             {skill.icon && <skill.icon className="text-2xl mb-1" />}
             <span>{skill.name}</span>

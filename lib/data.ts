@@ -1,13 +1,14 @@
 import React from "react";
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiBootstrap, SiSass, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiNextdotjs, SiTrello, SiDiscord, SiCsharp, SiPostman, SiNpm, } from "react-icons/si";
+import { FaMobile, FaNode, FaUsers } from "react-icons/fa";
+import { TbUxCircle } from "react-icons/tb";
+import { RiUserFill } from 'react-icons/ri';
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import uxdesign from "@/public/uxdesign.png";
 import dreamestate from "@/public/dreamestate.png"
 import todolist from "@/public/todolist.png";
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiTailwindcss, SiBootstrap, SiSass, SiMongodb, SiGit, SiGithub, SiVisualstudiocode, SiFigma, SiNextdotjs, SiTrello, SiDiscord, SiCsharp, SiPostman, SiNpm, } from "react-icons/si";
-import { FaMobile, FaNode, FaUsers } from "react-icons/fa";
-import { TbUxCircle } from "react-icons/tb";
-import { RiUserFill } from 'react-icons/ri';
+import validateform from "@/public/validateform.png";
 
 export const links = [
     {
@@ -61,7 +62,7 @@ export const educationData = [
         date: "2021-2022",
     },
     {
-        title: "Programmering 1 Java", "Sociologi": "Personaladministration",
+        title: "Programmering 1 Java", "Sociology": "Personaladministration",
         subtitle: "Komvux | Adult Education",
         description: "I studied Java programming 1 to prepare myself for further studies in technology. Additionally, I took courses in sociology and personal administration at Komvux (Adult Education).",
         icon: React.createElement(LuGraduationCap),
@@ -115,6 +116,13 @@ export const projectsData = [
         projectUrl: "https://www.figma.com/file/CzWRa9pCaRfpFPgJmX8RP9/UX-uppgift-ulrika-hahn?type=design&mode=design&t=I31yz1GLX2JtlbxG-1",
     },
     {
+        title: "Todo List",
+        description: "A responsive todo list application using JavaScript. This involved implementing functionalities such as adding, deleting, and marking items as done. CSS was applied for styling to enhance the user interface.",
+        tags: ["HTML", "CSS", "JavaScript"],
+        imageUrl: todolist,
+        projectUrl: "https://todoli00.netlify.app/",
+    },
+    {
         title: "Real Estate Website",
         description:
             "For a school HTML/CSS project, I created a responsive corporate website for a fictional real estate company. It was my first time building a multi-page site and using Sass.",
@@ -123,12 +131,14 @@ export const projectsData = [
         projectUrl: "https://dream-estate-website.netlify.app/",
     },
     {
-        title: "Todo List",
-        description: "A responsive todo list application using JavaScript. This involved implementing functionalities such as adding, deleting, and marking items as done. CSS was applied for styling to enhance the user interface.",
+        title: "Validating Form",
+        description:
+            "This project involved creating a form with validation using JavaScript. I implemented functionalities such as checking for empty fields, valid email addresses, and password length. I also used CSS to style the form.",
         tags: ["HTML", "CSS", "JavaScript"],
-        imageUrl: todolist,
-        projectUrl: "https://todoli00.netlify.app/",
+        imageUrl: validateform,
+        projectUrl: "https://valifor.netlify.app/",
     },
+
 ] as const;
 
 export const skillsData = [
@@ -152,11 +162,11 @@ export const skillsData = [
     { name: "Figma", icon: SiFigma },
     { name: "Trello", icon: SiTrello },
     { name: "Discord", icon: SiDiscord },
-    {name: "Postman", icon: SiPostman},
-    {name: "NPM", icon: SiNpm},
-    {name: "Responsive Design", icon: FaMobile},
-    {name:"Agile Methodologies", icon:FaUsers}, 
-    {name:"Accessibility", icon: RiUserFill},
+    { name: "Postman", icon: SiPostman },
+    { name: "NPM", icon: SiNpm },
+    { name: "Responsive Design", icon: FaMobile },
+    { name: "Agile Methodologies", icon: FaUsers },
+    { name: "Accessibility", icon: RiUserFill },
 
 ] as const;
 
