@@ -58,7 +58,7 @@ export default function Intro() {
           href="#contact"
           className="group bg-[#DB2777] bg-opacity-80 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
-          Contact me here{''}
+          Contact me here &ensp;
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -67,7 +67,7 @@ export default function Intro() {
           href="/ulrika-hahn-CV.pdf"
           download
         >
-          Download CV{" "}
+          Download CV &ensp;
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
 
