@@ -58,7 +58,7 @@ export default function Intro() {
           href="#contact"
           className="group bg-[#DB2777] bg-opacity-80 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
         >
-          Contact me here{" "}
+          Contact me here{''}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
@@ -72,7 +72,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-[#DB2777] bg-opacity-30 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-[#DB2777] bg-opacity-30 p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
           href="https://www.linkedin.com/in/ulrika-hahn-5037a4241/"
           target="_blank"
         >
@@ -80,7 +80,7 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-[#DB2777] bg-opacity-30 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="bg-[#DB2777] bg-opacity-30 p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
           href="https://github.com/ulrikaha"
           target="_blank"
         >
