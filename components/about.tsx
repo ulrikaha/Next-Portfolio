@@ -27,7 +27,7 @@ export default function About() {
           Html, Css, Javascript, Typescript, React, Next.js, TailwindCss, Node.js and MongoDB</span> for mentioned a few.
         {'\u00A0'}I&apos;ve explored UX/UI design using Figma.
         {'\u00A0'}
-        <span>I have gained practical experience through a recent internship. In this role, I worked on UX design, front-end and back-end development for a CMS handling job advertisements and applications, as well as a career page. </span>
+        <span>I have gained practical experience through my recent internship at Seemli. I worked on UX design, front-end and back-end development for a CMS handling job advertisements and applications, as well as a career page. </span>
         {'\u00A0'}
         I enjoy the diversity of the work and the fact that I am always learning something new. My goal is to become a full-stack developer in the future.
         <br></br>
@@ -39,14 +39,15 @@ export default function About() {
       <br></br>
       <p>
         <span className="italic">When I&apos;m not coding</span>, you&apos;ll find me either hitting the gym, or unwinding with a game of Mario Kart.
-        And ofcourse spending quality time with my family.
+        And of course spending quality time with my family.
       </p>
       <br></br>
       <hr className="border-gray-300 my-8" />
       <SectionHeading>Current Learning</SectionHeading>
       <p className="mb-3">
-        I&apos;m currently expanding my skills by learning C#.
-        I&apos;m excited to delve deeper into this technology and further enhance my capabilities as a developer.
+        I&apos;m currently expanding my skills by learning C# and getting a certification.
+        I&apos;m also working on two projects, one is a website for adoption of cats and the other is the final project for my education. 
+        I will be using React, Next.js, TailwindCss, Node.js and MongoDB for both projects. They will be added to my portfolio when they are finished.
       </p>
       <hr className="border-gray-300 my-8" />
     </motion.section>
