@@ -41,8 +41,8 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="block font-bold text-5xl">Hi, I&apos;m Ulrika!</span>
-        <span className="block mt-3">I&apos;m  <span className="font-bold">front-end developer</span></span>
-        <span className="block mt-4 italic font-bold underline">Currently looking for job opportunities</span>
+        <span className="block mt-3">I&apos;m a <span className="font-bold">Frontend Developer</span> in Stockholm</span>
+        <span className="block mt-4 italic font underline">Currently looking for job opportunities</span>
       </motion.h1>
 
       <motion.div
