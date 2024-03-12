@@ -10,7 +10,7 @@ export default function Experience() {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section id="education" className="scroll-mt-28 mb-28 sm:mb-40 text-center">
+    <section id="experience" className="scroll-mt-28 mb-28 sm:mb-40 text-center">
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="white">
         {educationData.map((item, index) => (
