@@ -27,7 +27,7 @@ export default function Contact() {
             <SectionHeading>Contact me</SectionHeading>
             <div className="flex justify-between mt-5">
                 <div className="flex-1 mr-2">
-                    <div className="bg-white shadow-lg rounded-lg p-6">
+                    <div className="bg-[#DB2777] bg-opacity-15 shadow-lg rounded-lg p-6">
                         <h2 className="text-xl font-semibold mb-2">E-mail</h2>
                         <p className="text-gray-700">
                             <a className="underline" href="mailto:ulrikahahn83@gmail.com">
@@ -37,7 +37,7 @@ export default function Contact() {
                     </div>
                 </div>
                 <div className="flex-1 ml-2">
-                    <div className="bg-white shadow-lg rounded-lg p-6">
+                    <div className="bg-[#DB2777] bg-opacity-15 shadow-lg rounded-lg p-6">
                         <h2 className="text-xl font-semibold mb-2">Phone</h2>
                         <p className="text-gray-700">
                             +46 760 060 179
