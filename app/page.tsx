@@ -5,6 +5,7 @@ import Projects from "@/components/projects";
 import Skills from "@/components/skills";
 import Experience from "@/components/experience";
 import Contact from "@/components/contact";
+import ScrollToTopBtn from "@/components/scroll-to-top-btn";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Skills />
       <Experience />
       <Contact />
+      <ScrollToTopBtn />
     </main>
   );
 }
