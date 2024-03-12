@@ -25,14 +25,6 @@ export default function Contact() {
             }}
         >
             <SectionHeading>Contact me</SectionHeading>
-            {/* <p className="text-gray-700 -mt-5">Please contact me directly at{" "}
-                <a className="underline"
-                    href="mailto:ulrikahahn83@gmail.com">
-                    ulrikahahn83@gmail.com
-                </a>{" "}
-                or through this form.
-            </p> */}
-
             <div className="flex justify-between mt-5">
                 <div className="flex-1 mr-2">
                     <div className="bg-white shadow-lg rounded-lg p-6">
@@ -63,7 +55,6 @@ export default function Contact() {
                         toast.error(error);
                         return;
                     }
-
                     toast.success("Your message has been sent! I'll get back to you as soon as possible.")
                 }}
 
