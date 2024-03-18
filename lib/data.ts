@@ -9,6 +9,7 @@ import uxdesign from "@/public/uxdesign.png";
 import dreamestate from "@/public/dreamestate.png"
 import todolist from "@/public/todolist.png";
 import validateform from "@/public/validateform.png";
+import portfolio from "@/public/portfolio.png";
 
 export const links = [
     {
@@ -107,6 +108,14 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Portfolio Website",
+        description:
+            "This is my portfolio website. It's a responsive and accessible website with a seamless user experience. I also tried Framer Motion for the first time and deployed the site on Netlify.",
+        tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],  
+        imageUrl: portfolio, 
+        projectUrl: "https://ulrikahahn.se/",
+    },
     {
         title: "Ux-Design & research for Food App",
         description:
