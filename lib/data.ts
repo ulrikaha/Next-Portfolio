@@ -10,6 +10,7 @@ import dreamestate from "@/public/dreamestate.png"
 import todolist from "@/public/todolist.png";
 import validateform from "@/public/validateform.png";
 import portfolio from "@/public/portfolio.png";
+import seemli from "@/public/seemli-career.png";
 
 export const links = [
     {
@@ -108,6 +109,14 @@ export const educationData = [
 ] as const;
 
 export const projectsData = [
+    {
+        title: "Seemli Career Website",
+        description:
+            "During my internship at Seemli, I worked on developing a career website for the company. I also worked on a CMS for handling job ads and applications that interacted with the website.",
+        tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
+        imageUrl:seemli,
+        projectUrl:" ",
+    },
     {
         title: "Portfolio Website",
         description:
