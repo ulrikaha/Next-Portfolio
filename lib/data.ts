@@ -11,6 +11,7 @@ import todolist from "@/public/todolist.png";
 import validateform from "@/public/validateform.png";
 import portfolio from "@/public/portfolio.png";
 import seemli from "@/public/seemli-career.png";
+import cms from "@/public/seemli-cms.png";
 
 export const links = [
     {
@@ -110,19 +111,26 @@ export const educationData = [
 
 export const projectsData = [
     {
+        title: "Seemli CMS for Job Ads and Applications",
+        description: "During my internship at Seemli, I worked on developing a fullstack project that included a CMS for handling job ads and applications.",
+        tags: ["Next.js", "Tailwind CSS", "TypeScript", "Node.js", "MongoDB"],
+        imageUrl: cms,
+        projectUrl: " ",
+    },
+    {
         title: "Seemli Career Website",
         description:
-            "During my internship at Seemli, I worked on developing a fullstack project that included a CMS for handling job ads and applications and a career website.",
+            "During my internship at Seemli, I worked on developing a fullstack project that included a CMS for handling job ads and applications and a career website that is connected to the CMS.",
         tags: ["Next.js", "Tailwind CSS", "TypeScript", "MongoDB"],
         imageUrl: seemli,
-        projectUrl:" ",
+        projectUrl: " ",
     },
     {
         title: "Portfolio Website",
         description:
             "This is my portfolio website. It's a responsive and accessible website with a seamless user experience. I also tried Framer Motion for the first time and deployed the site on Netlify.",
-        tags: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],  
-        imageUrl: portfolio, 
+        tags: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],
+        imageUrl: portfolio,
         projectUrl: "https://ulrikahahn.se/",
     },
     {
