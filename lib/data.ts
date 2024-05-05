@@ -47,7 +47,7 @@ export const educationData = [
         subtitle: "Seemli Sweden AB",
         description: "During my internship at Seemli, I worked on both frontend and backend development as well as UX/UI design. I took on a lot of responsibility, especially in developing a CMS for handling job ads and applications, and a connected career website. I primarily used technologies like React, Next.js, Typescript, and TailwindCSS, along with Figma for design work. I also worked with Node.js, MongoDB, and Trello. I also had the opportunity to familiarize myself with some basic C# programming and explore the Litium e-commerce platform. In this role, my team and I were responsible for addressing error reports and implementing requested functionalities from customers for their websites. We effectively broke down these tasks into manageable components and estimated the time required for their completion. I also worked with the agile methodology Scrum.",
         icon: React.createElement(CgWorkAlt),
-        date: "2023-2024 (5 months)",
+        date: "2023-2024 (6 months)",
     },
     {
         title: "Frontend Developer",
@@ -112,16 +112,16 @@ export const projectsData = [
     {
         title: "Seemli Career Website",
         description:
-            "During my internship at Seemli, I worked on developing a career website for the company. I also worked on a CMS for handling job ads and applications that interacted with the website.",
-        tags: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-        imageUrl:seemli,
+            "During my internship at Seemli, I worked on developing a fullstack project that included a CMS for handling job ads and applications and a career website.",
+        tags: ["Next.js", "Tailwind CSS", "TypeScript", "MongoDB"],
+        imageUrl: seemli,
         projectUrl:" ",
     },
     {
         title: "Portfolio Website",
         description:
             "This is my portfolio website. It's a responsive and accessible website with a seamless user experience. I also tried Framer Motion for the first time and deployed the site on Netlify.",
-        tags: ["React", "Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],  
+        tags: ["Next.js", "Tailwind CSS", "TypeScript", "Framer Motion"],  
         imageUrl: portfolio, 
         projectUrl: "https://ulrikahahn.se/",
     },
