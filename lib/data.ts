@@ -111,17 +111,17 @@ export const educationData = [
 
 export const projectsData = [
     {
-        title: "Seemli CMS for Job Ads and Applications",
-        description: "During my internship at Seemli, I worked on developing a fullstack project with UX-design that included a CMS for handling job ads and applications.",
-        tags: ["Fullstack", "Next.js", "Tailwind CSS", "TypeScript", "Node.js"],
+        title: "CMS for Job Ads and Applications",
+        description: "During my internship at Seemli, I developed a fullstack project with UX-design that included a CMS for handling job ads and applications.",
+        tags: ["Fullstack", "Next.js", "Tailwind CSS", "TypeScript", "Node.js", "MongoDB", "Figma"],
         imageUrl: cms,
         projectUrl: " ",
     },
     {
-        title: "Seemli Career Website",
+        title: "Career Website",
         description:
-            "I worked on developing a career website that was connected to the CMS. I also did UX-design for this project.",
-        tags: ["Fullstack", "Next.js", "Tailwind CSS", "TypeScript", "MongoDB"],
+            "I also worked on developing a career website for Seemli that was connected to the CMS. And I did UX-design for this project.",
+        tags: ["Fullstack", "Next.js", "Tailwind CSS", "TypeScript", "MongoDB", "Figma"],
         imageUrl: seemli,
         projectUrl: " ",
     },
