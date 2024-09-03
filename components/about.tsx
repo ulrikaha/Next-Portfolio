@@ -19,16 +19,16 @@ export default function About() {
           <p className="mb-3">
             I graduated in May 2024 from KYH (Higher Vocational Education) with a specialization in
             <br></br>
-            <span className="font-medium">Front End Development</span>. Prior to my education, I had an extensive career in healthcare as a personal assistant and nursing assistant. Additionally, I operated my own e-commerce business focusing on women's clothing and shoes.
+            <span className="font-medium">Front End Development</span>. Prior to my education, I worked as a personal assistant and nursing assistant. I have also operated my own e-commerce business focusing on women's clothing and shoes.
             <br /><br />
             <span className="font-medium">Programming is my passion</span> because it allows me to bring projects to life and see them in action. I have experience with {'\u00A0'}
             <span className="font-medium">HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, Node.js, and MongoDB</span>, among others. I have also explored UX/UI design using Figma.
             <br /><br />
-            Recently, I completed an internship at Seemli where I gained hands-on experience in UX design, front-end, and back-end development for a CMS managing job advertisements and applications, as well as a career page. This diverse work experience has reinforced my love for continuous learning and tackling new challenges.
+            Recently, I completed an internship at Seemli where I gained hands-on experience in full-stack development and UX design, for a CMS managing job advertisements and applications, as well as a career page. This diverse work experience has reinforced my love for continuous learning and tackling new challenges.
             <br /><br />
-            My goal is to evolve into a full-stack developer. I am known for my social personality, dedication, empathy, and teamwork. I thrive in collaborative environments and aim to create a positive atmosphere while delivering exceptional results.
+            My goal is to evolve into a full-stack developer. I am known for my social personality, dedication, empathy and teamwork. I thrive in collaborative environments and aim to create a positive atmosphere while delivering exceptional results.
             <br /><br />
-            <span className="font-medium">I am currently seeking a full-time position</span> as a Frontend Developer in Stockholm, with openness to hybrid or remote work. I am eager to join a company where I can grow, learn from other developers, and contribute to the success of a diverse team.
+            <span className="font-medium">I am currently seeking a full-time position</span> as a Frontend Developer in Stockholm, with openness to hybrid or remote work. I am eager to join a company where I can grow, learn from other developers and contribute to the success of a diverse team.
           </p>
           <br />
           <p>
